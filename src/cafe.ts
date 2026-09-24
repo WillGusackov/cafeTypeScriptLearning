@@ -2,7 +2,7 @@
 // 1. THE MENU
 // ---------------------------------------------------------------
 
-import { availableMemory } from "node:process"
+import { availableMemory } from "process";
 import { MenuItem, Seasonal, ComboDeal, courseList } from "./menuTypes";
 
 // TS: These three objects share a structure - declare an interface (call it
